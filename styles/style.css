@@ -109,8 +109,7 @@ body {
 /* team section style hire  */
 
 .team {
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
+   
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -286,7 +285,6 @@ body {
 }
 .rating-success{
     border: 1px solid #727272;
-    /* width: 240px; */
     height: 240xp;
     text-align: center;
     padding: 20px 0;
@@ -351,7 +349,7 @@ body {
 }
 .copyright{
     background-color: #FFF4E7;
-    padding: 40px 0;
+    padding: 30px 0;
     text-align: center;
     margin-top: 150px;
     color: #424242;
@@ -363,9 +361,6 @@ body {
     .menu-bar{
         flex-direction: row-reverse;
         width: 100%;
-        /* align-items: flex-start; */
-        /* justify-content: space-between; */
-        
     }
     .company-title h2{
         font-size: 30px;
@@ -381,6 +376,9 @@ body {
         flex-direction: column;
         row-gap: 10px;
         
+    }
+    .nav a{
+        font-size: 16px;
     }
     .banner-info{
         width: 100%;
@@ -427,6 +425,16 @@ body {
     }
     .rating-success h3{
         font-size: 30px;
+    }
+    .sponsor-container{
+        width: 100%;
+    }
+    .sponsor-title h2{
+        font-size: 30px;
+    }
+    .sponsor-brand{
+        grid-template-columns: 1fr ;
+
     }
 
 }
@@ -493,6 +501,16 @@ body {
         font-size: 30px;
     }
     
+    .sponsor-container{
+        width: 100%;
+    }
+    .sponsor-title h2{
+        font-size: 30px;
+    }
+    .sponsor-brand{
+        grid-template-columns: 1fr 1fr;
+
+    }
 
     
 }
