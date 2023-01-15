@@ -347,6 +347,9 @@ body {
     gap: 50px;
     align-items: center;
 }
+.sponsor-brand img{
+     filter: grayscale(100%);;
+}
 .copyright{
     background-color: #FFF4E7;
     padding: 30px 0;
