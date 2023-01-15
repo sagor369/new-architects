@@ -378,6 +378,7 @@ body {
     .navbar ul{
         flex-direction: column;
         row-gap: 10px;
+        padding-left: 10px;
         
     }
     .nav a{
